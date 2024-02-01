@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Averta CY W10";
+}
+*::selection {
+    color:#000;
+    background-color: #fff;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+background-color: #1e1c1c;
+}
+
+#home {
+    width: 100%;
+    min-height: 100vh; 
+    background-color: #1e1c1c;
+
+}
+#nav {
+    width: 100%;
+    padding: 3px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav a {
+    text-decoration: none;
+    color: #ffffffea;
+   padding: 0 15px;
+
+}
+#nav i {
+    color: #ffffffea;
+    padding: 0 15px;
+margin-top: 3px;
+font-size: 17px;
+}
+#nav img {
+    width: 125px;
+}
+#hometitle{
+width: 100%;
+padding:12vw 15vw;
+color: #fff;
+}
+#hometitle h1{
+font-weight:400 ;
+font-size: 1.34vw;
+}
+.titles {
+display:flex;
+gap:30px;
+}
+#hometitle .titles h1 {
+    color:transparent;
+    -webkit-text-stroke: 1px hsl(0, 0%, 100%);
+    font-size: 6vw;
+    font-weight: 550;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+#hometitle .titles h1:hover {
+    color: #fff;
+}
+#homelast{
+padding:5vw 15vw;
+}
+#homelast p {
+    color:#fff;
+    font-size: 1.6vw;
+    font-weight: 400;
+    width:70%;
+    letter-spacing: -.08vw;
+
+}
+#homelast p::selection {
+    color: #000;
+    background-color:#ffff;
+}
+#featured{
+    padding: 10vw 15vw;
+} 
+.fheading>h1{
+    font-size: 4vw;
+    color: #ffff;
+    font-weight: 400;
+    line-height: 1;
+}
+.fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 0.5px #ffff;
+}
+#fimages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+}
+
+#fleft {
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+}
+.fleftelm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    color: #fff;
+}
+.fleftelm h1{
+    font-size:2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 2vw 0;
+}
+.fleftelm h3{
+   font-size: 1.3vw;
+   font-weight: 400;
+  }
+.fleftelm h4{
+  opacity: .5;
+}
+#fright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+#fright .images {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    
+} 
+
+#fright .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.btndiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button {
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+#dev {
+    color: #fff;
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1 {
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+
+#dev p {
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+#slides{
+    color: #fff;
+    padding:3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.slide{
+width:30%;
+}
+.slide .img{
+    width:100%;
+    height: 270px;
+overflow: hidden;
+border-radius: 10px;
+}
+.slide .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide .tag{
+    width:fit-content;
+    margin:20px 0;
+    padding:10px 22px;
+    border-radius: 7px;
+background-color: #767373;
+}
+.copyright{
+    font-size: 14px;
+    text-align: center;
+    color: rgb(213, 212, 212);
+    padding:10px 15px ;
+}
